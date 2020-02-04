@@ -1,0 +1,71 @@
+html{
+    background-color: rgba(159, 41, 126, 0.455);
+
+}
+.App {
+  text-align: center;
+}
+/* Navigation Start */
+.selected{
+  background-color: blue;
+  color:white;
+}
+.nav-container{
+  display:flex;
+  height:50vh;
+  flex-direction: column;
+  background-color: rgba(86, 240, 240, 0.414);
+  justify-content: space-evenly;
+  border-bottom: 2px solid blue;
+  padding: 2%;
+}
+.nav{
+  font-size: larger;
+    border-radius: 9%;
+    padding:0.2% 0.3% 1%;
+}
+
+/* Navigation End */
+
+/* Body Start */
+/* Body End */
+/* Card Component Start */
+.card{
+  background-color:aqua;
+  border:2px solid red;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width:30%;
+  margin:3% auto;
+  padding-bottom:15px;
+  border-radius:10px;
+}
+.haveTried{
+  margin:0 auto;
+  display:flex;
+  border:1px solid tan;
+  flex-direction: column;
+  align-items: baseline;
+  padding:1%;
+  
+}
+.subTitle{
+  font-weight: bold;
+}
+/* Card Component End */
+.form{
+  width:50%;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+}
+.error{
+  color:red;
+}
+.layout{
+  display:flex;
+  width:45%;
+
+}
